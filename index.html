@@ -1,74 +1,64 @@
 <!DOCTYPE html>
+<html>
 <head><!--This "head" has nothing to do with webpage, we can use this to add title to our page, the name to be displayed as tab name.-->
-        <title>ChowRaasta</title>
-        <meta name = "Description" content = "This is the description." >
+    <title>ChowRaasta</title>
+    <meta name = "Description" content = "This is the description." >
+    <link rel="stylesheet" href = "styles.css" />
 </head>
 <body>
-        <header>
-                <nav>
-                        <ul>
-                                <li><a href="index.html">HOME</a></li>
-                                <li><a href="store.html">STORE</a></li>
-                                <li><a href="about.html">ABOUT</a></li>
-                        </ul>
-                </nav>
-                <hr>
-                <h1>ChowRaasta</h1>
-                <button type="button">Get our latest album</button>
-                <br><!--This helps to add new line-->
-                <br>
-                <button type="button">&#9658;</button>
-        </header>
-        <section>
-                <h2>Tours</h2>
-                <div><!--this is meaningless elements -1 , it's a block type, helps in segregating blocks-->
-                        <div>
-                                <strong>Jul 16</strong>
-                                &lt;&gt;
-                                <span>Hyderabad, TS</span>
-                                &lt;&gt;
-                                <span>Uppal Stadium</span>
-                                &lt;&gt;
-                                <button type = "button">Buy Tickets</button>
-                                <hr>
-                        </div>
-                        <div>
-                                <strong>Jul 23</strong>
-                                &lt;&gt;
-                                <span>Hyderabad, TS</span>
-                                &lt;&gt;
-                                <span>Data Energy Theatre</span>
-                                &lt;&gt;
-                                <button type = "button">Buy Tickets</button>
-                                <hr>
-                        </div>
-                        <div>
-                                <strong>Jul 31</strong>
-                                &lt;&gt;
-                                <span>Hyderabad, TS</span>
-                                &lt;&gt;
-                                <span>Bagmane Park</span>
-                                &lt;&gt;
-                                <button type = "button">Buy Tickets</button>
-                                <hr>
-                        </div>
-                        <div>
-                                <strong>Aug 7</strong>
-                                &lt;&gt;
-                                <span>Vijayawada, AP</span>
-                                &lt;&gt;
-                                <span>Adhvaitha Bhushan Theatre</span>
-                                &lt;&gt;
-                                <button type = "button">Buy Tickets</button>
-                                
-                        </div>
-                </div>
-        </section>
-        <footer>
-                <h3>ChowRaasta</h3>
-                <ul>
-                        <li><a href="https://www.youtube.com/channel/UCjb1fB0fQ78Hmfc6Cx1wG1A" target="_blank"><img src = "Images/YouTube Logo BlackAndWhite.png"></a></li>
-                        <li><a href="https://www.facebook.com/chowraasta/" target="_blank"><img src = "Images/Facebook Logo BlackAndWhite.png"></a></li>
-                </ul>
-        </footer>
+    <header class="main-header">
+        <nav class="nav main-nav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="store.html">STORE</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+            </ul>
+        </nav>
+        <h1 class="band-name band-name-large">ChowRaasta</h1>
+        <div class="container">
+            <button class = "btn btn-header" type="button">Get our latest album</button>
+        </div>
+        <br><!--This helps to add new line-->
+        <br>
+        <button class="btn btn-header btn-play" type="button">&#9658;</button>
+    </header>
+    <section class="content-section container">
+        <h2 class="section-header">Tours</h2>
+        <div><!--this is meaningless elements -1 , it's a block type, helps in segregating blocks-->
+            <div class="tour-row">
+                <span class="tour-item tour-date" >Jul 16</span>
+                <span class="tour-item tour-city" >Hyderabad, TS</span>
+                <span class="tour item tour-arena">Uppal Stadium</span>
+                <button type = "button" class="btn tour-item tour-btn btn-primary">Buy Tickets</button>
+            </div>
+            <div class="tour-row">
+                <span class="tour-item tour-date">Jul 23</span>
+                <span class="tour-item tour-city" >Hyderabad, TS</span>
+                <span class="tour item tour-arena">Data Energy Theatre</span>
+                <button type = "button" class="btn tour-item tour-btn btn-primary">Buy Tickets</button>
+            </div>
+            <div class="tour-row">
+                <span class="tour-item tour-date" >Jul 31</span>
+                <span class="tour-item tour-city" >Hyderabad, TS</span>
+                <span class="tour item tour-arena">Bagmane Park</span>
+                <button type = "button" class="btn tour-item tour-btn btn-primary">Buy Tickets</button>
+            </div>
+            <div class="tour-row">
+                <span class="tour-item tour-date" >Aug 7</span>
+                <span class="tour-item tour-city" >Vijayawada, AP</span>
+                <span class="tour item tour-arena">Adhvaitha Bhushan Theatre</span>
+                <button type = "button" class="btn tour-item tour-btn btn-primary">Buy Tickets</button>   
+            </div>
+        </div>
+    </section>
+    <footer class="main-footer">
+        <div class="container main-footer-container">
+            <h3 class="band-name">ChowRaasta</h3>
+            <ul class="nav footer-nav">
+                <li><a href="https://www.youtube.com/channel/UCjb1fB0fQ78Hmfc6Cx1wG1A" target="_blank"><img src = "Images/YouTube Logo BlackAndWhite.png"></a></li>
+                <li><a href="https://www.facebook.com/chowraasta/" target="_blank"><img src = "Images/Facebook Logo BlackAndWhite.png"></a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
+</html>
