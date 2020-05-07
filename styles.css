@@ -194,6 +194,10 @@ html, body {
     align-items: center;
     padding: 5px;
 }
+.music-item-goto a{
+    color: white;
+    text-decoration: none;
+}
 .music-items,.shop-items {
     display: flex;
     flex-wrap: wrap; /* to freely flow w.r.to browser size*/
