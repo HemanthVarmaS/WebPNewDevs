@@ -1,121 +1,125 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>ChowRaasta | Store</title>
-    <meta name = "Description" content = "This is the description.">
-    <link rel="stylesheet" href = "styles.css" />
-</head>
-<body>
-    <header class="main-header"> <!--this tells webpage that this is the header-->
-        <nav class="nav main-nav">  <!--this tells webpage that this is navigation section, we can have multiple navigation sections, mostly we'll have one either at the top or right.-->
+    <meta name="Description" content="This is the description." />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="store.js" async></script>
+  </head>
+  <body>
+    <header class="main-header">
+      <!--this tells webpage that this is the header-->
+      <nav class="nav main-nav">
+        <!--this tells webpage that this is navigation section, we can have multiple navigation sections, mostly we'll have one either at the top or right.-->
         <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="store.html">STORE</a></li>
-            <li><a href="about.html">ABOUT</a></li>
-        </ul> 
-        </nav>
-        <!--<hr>   means a straight line/"Horizontal Ruler"-->
-        <h1 class="band-name band-name-large">ChowRaasta</h1>   <!--meaning heading elements, h1 to h6 available of varying sizes, h1 being the largest size and h6 being the smallest-->
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="store.html">STORE</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+        </ul>
+      </nav>
+      <!--<hr>   means a straight line/"Horizontal Ruler"-->
+      <h1 class="band-name band-name-large">ChowRaasta</h1>
+      <!--meaning heading elements, h1 to h6 available of varying sizes, h1 being the largest size and h6 being the smallest-->
     </header>
     <section class="content-section container">
-        <h2 class="section-header">MUSIC</h2>
-    <div class="music-items">
+      <h2 class="section-header">MUSIC</h2>
+      <div class="music-items">
         <div class="music-item">
-            <span class="music-item-title">Cheyi cheyi kalapaku ra</span>
-            <img class="music-item-image" src = "Images/Album 1.png">
-            <div class="music-item-goto">
-                <button class="btn btn-primary music-item-button" role = "button">Listen Now!</button>
-            </div>
+          <span class="music-item-title">Cheyi cheyi kalapaku ra</span>
+          <img class="music-item-image" src="Images/Album 1.png" />
+          <div class="music-item-goto">
+            <button class="btn btn-primary music-item-button" role="button">
+              <a href="https://youtu.be/DJSRl_3rSy0" target="_blank">Listen Now!</a>
+            </button>
+          </div>
         </div>
         <div class="music-item">
-            <span class="music-item-title">Oorillepotha mama</span>
-            <img class="music-item-image" src = "Images/Album 2.png">
-            <div class="music-item-goto">
-               <button class="btn btn-primary music-item-button" role = "button">Listen Now!</button>
-            </div>
-       </div>
-       <div class="music-item">
-            <span class="music-item-title">Mr.Pellam</span>
-            <img class="music-item-image" src = "Images/Album 3.png">
-            <div class="music-item-goto">
-                <button class="btn btn-primary music-item-button" role = "button">Listen Now!</button>
-            </div>
-       </div>
-       <div class="music-item">
-           <span class="music-item-title">Hey Johnny!</span>
-           <img class="music-item-image" src = "Images/Album 4.png">
-           <div class="music-item-goto">
-               <button class="btn btn-primary music-item-button" role = "button">Listen Now!</button>
-           </div>
-       </div>
-    </div>
+          <span class="music-item-title">Oorillepotha mama</span>
+          <img class="music-item-image" src="Images/Album 2.png" />
+          <div class="music-item-goto">
+            <button class="btn btn-primary music-item-button" role="button">
+              <a href="https://youtu.be/AImD1AjhgnQ" target="_blank">Listen Now!</a>
+            </button>
+          </div>
+        </div>
+        <div class="music-item">
+          <span class="music-item-title">Mr.Pellam</span>
+          <img class="music-item-image" src="Images/Album 3.png" />
+          <div class="music-item-goto">
+            <button class="btn btn-primary music-item-button" role="button">
+              <a href="https://youtu.be/9TNUUkireCg" target="_blank">Listen Now!</a>
+            </button>
+          </div>
+        </div>
+        <div class="music-item">
+          <span class="music-item-title">Hey Johnny!</span>
+          <img class="music-item-image" src="Images/Album 4.png" />
+          <div class="music-item-goto">
+            <button class="btn btn-primary music-item-button" role="button">
+              <a href="https://youtu.be/ICEq9jA8e-c" target="_blank">Listen Now!</a>
+            </button>
+          </div>
+        </div>
+      </div>
     </section>
     <section class="content-section container">
-        <h2 class="section-header">MERCH</h2>
-    <div class="shop-items">
+      <h2 class="section-header">MERCH</h2>
+      <div class="shop-items">
         <div class="shop-item">
-           <span class="shop-item-title">T-Shirt</span>
-           <img class="shop-item-image" src = "Images/Shirt.png">
-           <div class="shop-item-details">
-               <span class="shop-item-price">&#x20B9;<!--INR--> 500</span>
-               <button class="btn btn-primary shop-item-button" role = "button">ADD TO CART</button>
-           </div>
-       </div>
-       <div class="shop-item">
-           <span class="shop-item-title">Coffee Cup</span>
-           <img class="shop-item-image" src = "Images/Cofee.png">
-           <div class="shop-item-details">
-               <span class="shop-item-price">&#8377;<!--INR--> 120</span>
-               <button class="btn btn-primary shop-item-button" role = "button">ADD TO CART</button>
-           </div>
-       </div>
-    </div>
+          <span class="shop-item-title">T-Shirt</span>
+          <img class="shop-item-image" src="Images/Shirt.png" />
+          <div class="shop-item-details">
+            <span class="shop-item-price"
+              >&#x20B9;<!--INR-->
+              500</span
+            >
+            <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Coffee Cup</span>
+          <img class="shop-item-image" src="Images/Cofee.png" />
+          <div class="shop-item-details">
+            <span class="shop-item-price"
+              >&#8377;<!--INR-->
+              120</span
+            >
+            <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
+          </div>
+        </div>
+      </div>
     </section>
     <section class="content-section container">
-        <h2 class="section-header">CART</h2>
-        <div class="cart-row">
-            <span class="cart-item cart-column cart-header">ITEM</span>
-            <span class="cart-price cart-column cart-header">PRICE</span>
-            <span class="cart-quantity cart-column cart-header">QUANTITY</span>
-        </div>
-        <div class="cart-items">
-            <div class="cart-row">
-                <div class = "cart-item cart-column">
-                    <img class="cart-item-image" src="Images/Shirt.png">
-                    <span class="cart-item-title">T-Shirt</span>
-                </div>
-                <span class="cart-price cart-column">&#x20B9; 500</span>
-                <div class="cart-quantity cart-column">
-                    <input class="cart-quantity-input" type="number" value = "1">
-                    <button class="btn btn-danger" role="button">REMOVE</button> <!-- btn-danger is to emphasize it's red colour-->
-                </div>
-            </div>
-            <div class="cart-row">
-                <div class="cart-item cart-column">
-                    <img class="cart-item-image" src="Images/Cofee.png">
-                    <span class="cart-item-title">Coffee Cup</span>
-                </div>
-                <span class="cart-price cart-column">&#x20B9; 120</span>
-                <div class="cart-quantity cart-column">
-                    <input class="cart-quantity-input" type="number" value = "2">
-                    <button class="btn btn-danger" role="button">REMOVE</button>
-                </div>
-            </div>
-        </div>
-        <div class="cart-total">
-           <span class="cart-total-title">Total</span>
-           <span class="cart-total-price">&#x20B9;740</span>
-        </div>
-       <button class="btn btn-primary btn-purchase" role="button">PURCHASE</button>
+      <h2 class="section-header">CART</h2>
+      <div class="cart-row">
+        <span class="cart-item cart-column cart-header">ITEM</span>
+        <span class="cart-price cart-column cart-header">PRICE</span>
+        <span class="cart-quantity cart-column cart-header">QUANTITY</span>
+      </div>
+      <div class="cart-items">
+      </div>
+      <div class="cart-total">
+        <span class="cart-total-title">Total</span>
+        <span class="cart-total-price">&#x20B9;0</span>
+      </div>
+      <button class="btn btn-primary btn-purchase" role="button">PURCHASE</button>
     </section>
     <footer class="main-footer">
-        <div class="container main-footer-container">
-            <h3 class="band-name">ChowRaasta</h3>
-            <ul class="nav footer-nav">
-                <li><a href="https://www.youtube.com/channel/UCjb1fB0fQ78Hmfc6Cx1wG1A" target="_blank"><img src = "Images/YouTube Logo BlackAndWhite.png"></a></li>
-                <li><a href="https://www.facebook.com/chowraasta/" target="_blank"><img src = "Images/Facebook Logo BlackAndWhite.png"></a></li>
-            </ul>
-        </div>
+      <div class="container main-footer-container">
+        <h3 class="band-name">ChowRaasta</h3>
+        <ul class="nav footer-nav">
+          <li>
+            <a href="https://www.youtube.com/channel/UCjb1fB0fQ78Hmfc6Cx1wG1A" target="_blank"
+              ><img src="Images/YouTube Logo BlackAndWhite.png"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/chowraasta/" target="_blank"
+              ><img src="Images/Facebook Logo BlackAndWhite.png"
+            /></a>
+          </li>
+        </ul>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
